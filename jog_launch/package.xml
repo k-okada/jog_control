@@ -23,6 +23,10 @@
   <exec_depend>tra1_moveit_config</exec_depend>
   <exec_depend>nextage_moveit_config</exec_depend>
 
-  <export></export>
+  <exec_depend>app_manager</exec_depend>
+
+  <export>
+    <app_manager app_dir="${prefix}/apps"/>
+  </export>
   
 </package>

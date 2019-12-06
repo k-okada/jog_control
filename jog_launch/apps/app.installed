@@ -1,0 +1,3 @@
+apps:
+- app: jog_launch/ur5
+  display: jog_control
